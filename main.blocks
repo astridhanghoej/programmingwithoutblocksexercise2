@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="~:.kf/?VjWs6AHwDLR{|">mySprite</variable><variable type="KIND_SpriteKind" id="_Exqg=g4m9T%zNGZ62Bc">Player</variable><variable type="KIND_SpriteKind" id="_LCkU#=^akeMuyaoSXyB">Projectile</variable><variable type="KIND_SpriteKind" id="~M]Lf4nY8?j?i{wm72{h">Food</variable><variable type="KIND_SpriteKind" id="^F}f!`]BAb)t1naYn8or">Enemy</variable></variables><comment id="j-bj$SXO[v83y@In|(Zh" data="3" x="861" y="47" h="120" w="480">Part3: When the duck becomes a shark, add a human sprite to the map.</comment><comment id="+_XL_tWT/16_F|xU-pzk" data="4" x="853" y="218" h="120" w="480">Part4: When the shark eats the human, end the game.</comment><comment id="Q=6.U81b*i|}A2_kqhg[" data="1" x="572" y="352" h="120" w="480">Part2: Add a sprite to the world. Carbs. Ducks love bread carbs (pizza, ice cream etc. is available from the asset gallery).</comment><comment id="+p3v_b83pkY!5%v[^.sM" data="2" x="397" y="452" h="120" w="480">Part3: Make it so that when the duck finds the carbs, the duck changes into a shark.</comment><comment id="PW`w)0FxzFCxLdy]Q%|k" data="0" x="1265" y="611" h="120" w="480">Part1: Make it so the duck reacts to mouse buttons</comment><block type="pxt-on-start" id="(*;*Ar+]#[}66^ha4ka1" x="10" y="10"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="tJ?MeN;v-n4a6y8`}_5p"><data>0;1;2;3;4</data><value name="color"><shadow type="colorindexpicker" id="3T/cq,%7?IdR8t0=o8Dz"><field name="index">9</field></shadow></value><next><block type="variables_set" id="dd4Yb.IF?]lo}cbSE4%5"><field name="VAR" id="~:.kf/?VjWs6AHwDLR{|">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="@[jTY]([2T@G[VXU}L8T"><value name="img"><shadow type="screen_image_picker" id="5I)-aT{gv*VY1s~yq.v["><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . b 5 5 b . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. b b b b b 5 5 5 5 5 5 5 b . . 
+. b d 5 b 5 5 5 5 5 5 5 5 b . . 
+. . b 5 5 b 5 d 1 f 5 d 4 f . . 
+. . b d 5 5 b 1 f f 5 4 4 c . . 
+b b d b 5 5 5 d f b 4 4 4 4 b . 
+b d d c d 5 5 b 5 4 4 4 4 4 4 b 
+c d d d c c b 5 5 5 5 5 5 5 b . 
+c b d d d d d 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"5I)-aT{gv*VY1s~yq.v["}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="``[O@2Driq:H^F=z0WNb"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
