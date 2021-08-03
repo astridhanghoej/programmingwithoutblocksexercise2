@@ -1,8 +1,8 @@
 /**
- * Part3: When the duck becomes a shark, add a human sprite to the map.
+ * Part4: When the duck becomes a shark, add a human sprite to the map.
  */
 /**
- * Part4: When the shark eats the human, end the game.
+ * Part5: When the shark eats the human, end the game.
  */
 /**
  * Part2: Add a sprite to the world. Carbs. Ducks love bread carbs (pizza, ice cream etc. is available from the asset gallery).
@@ -13,6 +13,7 @@
 /**
  * Part1: Make it so the duck reacts to mouse buttons
  */
+
 scene.setBackgroundColor(9)
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
